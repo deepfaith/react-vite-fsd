@@ -16,8 +16,7 @@
     "storybook": "storybook dev -p 6006",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "build-storybook": "storybook build",
-    "dep-cruiser:preview": "npx depcruise src --include-only \"^src\" --output-type dot | dot -T svg > dependency-graph-preview.svg"
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.18",
